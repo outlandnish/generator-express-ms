@@ -1,0 +1,36 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "<%= name %> micro service",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cp env/.env.test .env && mocha --recursive",
+    "start": "cp env/.env.prod .env && node server",
+    "debug": "cp env/.env.dev .env && node app"
+  },
+  "keywords": [
+    "micro",
+    "service",
+    "express",
+    "web",
+    "app"
+  ],
+  "author": "Nishanth Samala <nishanth.samala@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "http-errors": "^1.4.0",
+    "morgan": "^1.7.0"
+  }
+}
