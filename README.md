@@ -1,4 +1,4 @@
-# express-micro
+# Express micro-service generator
 A Yeoman generator to template out a micro-service using Express
 
 ## Installation
