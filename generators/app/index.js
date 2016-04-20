@@ -40,6 +40,11 @@ module.exports = yeoman.Base.extend({
             this.templatePath('**/!(_package.json)'),
             this.destinationPath()
         );
+        
+        this.fs.copy(
+            this.templatePath('**/.*'),
+            this.destinationPath()
+        );
     },
 
     install: function() {

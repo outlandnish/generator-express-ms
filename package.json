@@ -1,6 +1,6 @@
 {
   "name": "generator-express-ms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A micro-service built with Express",
   "homepage": "https://github.com/nsamala/generator-express-ms",
   "author": {
