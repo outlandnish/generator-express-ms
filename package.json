@@ -1,7 +1,7 @@
 {
   "name": "generator-express-ms",
   "version": "0.1.1",
-  "description": "A micro-service built with Express",
+  "description": "A multi-core, Express micro service generator route, middleware and test boilerplate",
   "homepage": "https://github.com/nsamala/generator-express-ms",
   "author": {
     "name": "Nishanth Samala",
